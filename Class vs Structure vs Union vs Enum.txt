@@ -1,0 +1,55 @@
+Class Vs Structure Vs Union Vs Enum 
+
+:: Class -- IT IS COLLECTION OF SAME TYPE OF VALUES/VARIABLES/DATATYPES. 
+	     -- OBJECT CREATE IN STACK MEMORY
+		 -- class members are by default private 
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+:: Structure -- IT IS COLLECTION OF DIFFRENT TYPE OF VALUES/VARIABLES/DATATYPES. 
+             -- OBJECT CREATE IN HEAP MEMORY
+	         -- struct members are by default public
+			-- When the variables are declared in a structure, the compiler allocates memory to each variables member. 
+			   The size of a structure is equal or greater to the sum of the sizes of each data member.
+             -- Each variable member will be assessed at a time.
+example of structure :: 
+struct Person
+{
+    char name[50];
+    int age;
+    float salary;
+};
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+:: Union -- IT IS COLLECTION OF DIFFRENT TYPE OF VALUES/VARIABLES/DATATYPES. 
+         -- OBJECT CREATE IN HEAP MEMORY
+	     -- When the variable is declared in the union , the compiler allocates memory to the largest size variable member. 
+            The size of a union is equal to the size of its largest data member size.
+         -- Only one variable member will be assessed at a time.
+
+example of union :: 
+
+union book {
+  int sr;
+  char name[10];
+  float price;
+};
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+:: Enum -- In C++ programming, enum or enumeration is a data type consisting of named values like elements, members, etc., 
+           that represent integral constants. 
+example ::
+
+enum week { Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday };  
+int main()  
+{  
+    week day;  
+    day = Friday;  
+    cout << "Day: " << day+1<<endl;  
+    return 0;  
+}     
+
+output -- Day: 5
