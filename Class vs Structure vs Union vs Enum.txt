@@ -1,6 +1,6 @@
 Class Vs Structure Vs Union Vs Enum 
 
-:: Class -- IT IS COLLECTION OF SAME TYPE OF VALUES/VARIABLES/DATATYPES. 
+:: Class -- IT IS COLLECTION OF SAME TYPE OF VALUES/VARIABLES. 
 	     -- OBJECT CREATE IN STACK MEMORY
 		 -- class members are by default private 
 
