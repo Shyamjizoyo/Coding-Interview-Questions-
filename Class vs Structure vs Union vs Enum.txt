@@ -4,7 +4,7 @@ Class Vs Structure Vs Union Vs Enum
 	     -- OBJECT CREATE IN STACK MEMORY
 		 -- class members are by default private 
 
----------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------
 
 
 :: Structure -- IT IS COLLECTION OF DIFFRENT TYPE OF VALUES/VARIABLES/DATATYPES. 
